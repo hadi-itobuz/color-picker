@@ -11,5 +11,4 @@ const changeColor = () => {
     color = genrateRandom();
     document.body.style.backgroundColor = color;
     hex.innerText = `Hexcode=${color}`;
-    console.log(color);
 }
